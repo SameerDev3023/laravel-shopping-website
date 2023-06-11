@@ -41,8 +41,6 @@
            </tr>
          </tbody>
        </table>
-        
-        <script src="" async defer></script>
     </body>
 </html>
 @endsection

@@ -1,51 +1,80 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    </head>
-    <body>
-       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-         <div class="container-fluid">
-           <a class="navbar-brand" href="#">Navbar</a>
-           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-             <span class="navbar-toggler-icon"></span>
-           </button>
-           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-               <li class="nav-item">
-                 <a class="nav-link active" aria-current="page" href="#">Home</a>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link" href="#">Link</a>
-               </li>
-               <li class="nav-item dropdown">
-                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                   Dropdown
-                 </a>
-                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                   <li><a class="dropdown-item" href="#">Action</a></li>
-                   <li><a class="dropdown-item" href="#">Another action</a></li>
-                   <li><hr class="dropdown-divider"></li>
-                   <li><a class="dropdown-item" href="#">Something else here</a></li>
-                 </ul>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-               </li>
-             </ul>
-             <form class="d-flex">
-               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-               <button class="btn btn-outline-success" type="submit">Search</button>
-             </form>
-           </div>
-         </div>
-       </nav>
-        <script src="" async defer></script>
-    </body>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="{{URL::asset('css/header.css')}}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="sfh-navbar-container">
+            <div class="sfh-navbar-wrapper">
+                        <div class="navbar-toggle-wrapper">
+                            <button class="navbar-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                        </div>
+                        <div class="link-wrapper text-center" id="navbarCollapse">
+                            <ul class="text-center">
+                                <li><a>Become supplier</a></li>
+                                <li><a>Contact us</a></li>
+                                <li><a>Help &amp; support</a></li>
+                            </ul>
+                            <div class="sfh-close-btn-wrapper" id="sfh-navbar-close"> 
+                                <i class="fa fa-close"></i>
+                            </div>  
+                        </div>
+                        <div class="sfh-brand-wrapper text-center">
+                            <h3><a id="sfh-brand-name">Star Fashion Hub</a></h3>
+                        </div>
+                        <form>
+                            <div class="search-bar">
+                                <input type="search" placeholder="Search Products" id="sfh-search-bar" />
+                            </div>
+                        </form>
+                        <div class="sfh-icon-wrapper text-center">
+                            <div class="sfh-like-product">
+                                <i class="fa fa-heart-o" style="font-size:20px;margin-top:12px;margin-left:20px"></i>
+                            </div>
+                            <div class="sfh-cart-bag">
+                                <i class="fa fa-shopping-bag" style="font-size:20px;margin-top:12px;margin-left:20px"></i>
+                            </div>
+                            <div class="sfh-user">
+                                <i class="fa fa-user" style="font-size:20px;margin-top:12px;margin-left:20px"></i>
+                            </div>
+                        </div>
+                </div> 
+        </div>
+  </div>
+                <div id="sfh-nav-hanger-wrap">
+                    <div id="sfh-nav-hanger" ></div>
+                    <div id="sfh-nav-hanger3" ></div>
+                    <div id="sfh-nav-hanger2" style="float:right"></div>
+                    <div id="sfh-nav-hanger4" style="float:right"></div>
+                </div>
+        
+            <div class="container">
+                <div class="sfh-Main-navbar text-center">    
+                    <div class="link-wrapper text-center" id="navbarCollapseChild">
+                        <ul class="text-center">
+                            <li><a>Men</a></li>
+                            <li><a>Women</a></li>
+                            <li><a>Kids</a></li>
+                            <li><a>Beauty</a></li>
+                            <li><a>Gifts Items</a></li>
+                            <li><a>Accessories</a></li>
+                        </ul>
+                    </div>
+                 </div>
+            </div>
+ 
+
+    <script src="{{URL::asset('js/navbar.js')}}"></script>
+</body>
 </html>
