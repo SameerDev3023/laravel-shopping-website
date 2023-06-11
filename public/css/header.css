@@ -25,7 +25,6 @@ ul {
 }
 .link-wrapper.text-center {
     margin-top: 15px;
- 
 }
 #sfh-brand-name {
     font-size: 40px;
@@ -114,6 +113,98 @@ ul {
         width: 280px;
     }
 }
+@media screen and (max-width: 959px) and (min-width: 200px) {
+    #sfh-brand-name {
+        font-size: 25px;
+        margin-left: 0px;
+        position: relative;
+        left: 15px;
+    }
+    .sfh-icon-wrapper div {
+        position: relative;
+        right: 10px;
+        top: -6px;
+      }
+      .navbar-toggle-wrapper{
+          position: relative;
+          top: -5px;
+          left: 10px;
+      }
+}
+@media screen and (max-width: 366px) and (min-width: 200px) {
+    #sfh-brand-name {
+        font-size: 20px;
+        margin-left: 0px;
+        position: relative;
+        left: 15px;
+    }
+    .sfh-icon-wrapper div {
+      position: relative;
+      right: 10px;
+      top: -6px;
+    }
+    .navbar-toggle-wrapper{
+        position: relative;
+        top: -5px;
+        left: 10px;
+    }
+}
+@media screen and (max-width: 330px) and (min-width: 200px) {
+    #sfh-brand-name {
+        font-size: 15px;
+        margin-left: 0px;
+        position: relative;
+        left: 15px;
+    }
+    .sfh-icon-wrapper div {
+      position: relative;
+      right: 10px;
+      top: -6px;
+    }
+    .navbar-toggle-wrapper{
+        position: relative;
+        top: -5px;
+        left: 10px;
+    }
+}
+@media screen and (max-width: 290px) and (min-width: 200px) {
+    #sfh-brand-name {
+        font-size: 15px;
+        margin-left: 0px;
+        position: relative;
+        left: 15px;
+    }
+    .sfh-icon-wrapper div {
+      position: relative;
+      right: 10px;
+      top: -6px;
+    }
+    .navbar-toggle-wrapper{
+        position: relative;
+        top: -10px;
+        left: 10px;
+        font-size: 10px
+    }
+}
+@media screen and (max-width: 280px) and (min-width: 200px) {
+    #sfh-brand-name {
+        font-size: 13px;
+        margin-left: 0px;
+        position: relative;
+        left: 15px;
+    }
+    .sfh-icon-wrapper div {
+      position: relative;
+      right: 10px;
+      top: -6px;
+    }
+    .navbar-toggle-wrapper{
+        position: relative;
+        top: -10px;
+        left: 10px;
+        font-size: 10px
+    }
+}
 @media screen and (max-width: 991px) and (min-width: 500px) {
     .link-wrapper.text-center {
         margin-left: -7px;
@@ -123,46 +214,64 @@ ul {
     }
     #sfh-brand-name {
         font-size: 30px;
-      position: relative;
-      top: 8px;
-      left: 6px;
+        position: relative;
+        top: 8px;
+        left: 6px;
     }
 }
 @media screen and (max-width: 950px) and (min-width: 500px) {
-   
     .search-bar {
         width: 220px;
     }
-   
 }
 @media screen and (max-width: 957px) and (min-width: 200px) {
     .search-bar {
         display: none;
     }
+    .sfh-drop-down-content {
+        display: block!important;
+    }
     .sfh-navbar-wrapper {
         width: 100%;
         display: inline-flex;
-        justify-content:space-around;
+        justify-content: space-around;
         align-items: baseline;
         min-height: 0;
         width: 100%;
         overflow: hidden;
         opacity: 1;
     }
-    .sfh-brand-wrapper.text-center {
-       margin: auto;
+    .link-wrapper.text-center.second.active {
+        background: transparent;
+        box-shadow: none;
+        overflow: hidden;
+        z-index: 2;
+        height: 100%;
+      display: inline-flex;
+        margin-top: 30px;
     }
-    .link-wrapper.text-center{
+    .link-wrapper.text-center.second.active ul li a {
+        margin: 0px;
+        font-size: 15px !important;
+        position: relative;
+    }
+    /* .link-wrapper.text-center.second.active ul li {
+        margin-left: 25px;
+        display: table-row-group;
+    } */
+    .sfh-brand-wrapper.text-center {
+        margin: auto;
+    }
+    .link-wrapper.text-center {
         display: none;
         width: 0%;
         overflow: hidden;
         animation: closeNavbar 1s ease-in-out forwards;
     }
-    .link-wrapper.text-center.active{
+    .link-wrapper.text-center.active {
         position: absolute;
         left: 0px;
-        top: 0px;
-        width:50%;
+        width: 50%;
         overflow: hidden;
         background-color: rgb(255, 255, 255);
         margin: 0px;
@@ -170,26 +279,30 @@ ul {
         float: left;
         height: 100%;
         box-shadow: 15px 50px 50px 1px #afaeae;
-         z-index: 1;
-         animation: showNavbar 1s ease-in-out forwards;
+        z-index: 1;
+        animation: showNavbar 1s ease-in-out forwards;
     }
     @keyframes showNavbar {
         0% {
-            
             width: 0;
         }
         100% {
-           
             width: 50%;
         }
     }
-    .link-wrapper.text-center.active li{
+    .link-wrapper.text-center.active li a {
+        font-size: 10px;
+        display: inline;
+    }
+    .link-wrapper.text-center.second.active li {
         display: block;
     }
     .sfh-close-btn-wrapper {
-        width: 65%;
+        width: 50%;
         text-align: right;
         font-size: xx-large;
+        height: 50px;
+        z-index: 10;
     }
 }
 @media screen and (min-width: 957px) {
@@ -200,171 +313,213 @@ ul {
         display: none;
     }
 }
-.sfh-Main-navbar{
+.link-wrapper.text-center.second {
     font-size: 30px !important;
     background-color: rgb(255, 255, 255);
     box-shadow: 1px 2px 5px 2px #afaeae;
     border-radius: 20px;
     margin: 0px;
     position: relative;
-    bottom: 50px;
+    bottom: 35px;
 }
-.sfh-Main-navbar li a{
-    font-size: 23px!important;}
-    /* hanger css start */
-#sfh-nav-hanger{
+.link-wrapper.text-center.second li a {
+    font-size: 23px !important;
+}
+/* hanger css start */
+#sfh-nav-hanger {
     height: 45px;
     position: relative;
     left: 55px;
     bottom: 0px;
     transform: rotate(150deg);
     width: 5px;
-   border-left:2px solid rgb(193, 193, 193) ;
-z-index: 2;
+    border-left: 2px solid rgb(193, 193, 193);
+    z-index: 2;
 }
-#sfh-nav-hanger3{
-   
+#sfh-nav-hanger3 {
     position: relative;
     left: 67px;
     bottom: 6px;
     height: 10px;
     width: 10px;
     border-radius: 100%;
-    border:3px solid rgb(193, 192, 192) ;
-z-index: 2;
+    border: 3px solid rgb(193, 192, 192);
+    z-index: 2;
 }
-#sfh-nav-hanger4{
+#sfh-nav-hanger4 {
     position: relative;
-    right:63px;
+    right: 63px;
     bottom: 16px;
     height: 10px;
     transform: rotate(30deg);
     width: 10px;
     border-radius: 100%;
-    border:3px solid rgb(193, 193, 193) ;
+    border: 3px solid rgb(193, 193, 193);
     z-index: 2;
 }
-#sfh-nav-hanger2{
+#sfh-nav-hanger2 {
     position: relative;
     right: 55px;
     bottom: 55px;
-color: #969696;
+    color: #969696;
     height: 45px;
     transform: rotate(30deg);
     width: 5px;
-    border-left:2px solid rgb(193, 193, 193) ;
+    border-left: 2px solid rgb(193, 193, 193);
     z-index: 2;
 }
-@media screen and (max-width:1398px){
-    #sfh-nav-hanger{
-        left: 140px;
-
-
+@media screen and (max-width: 2020px) and (min-width:1620px){
+    #sfh-nav-hanger {
+        left: 220px;
     }
-    #sfh-nav-hanger2{
-        right: 140px
-
+    #sfh-nav-hanger2 {
+        right: 220px;
     }
-    #sfh-nav-hanger3{
-        left: 152px;
-
+    #sfh-nav-hanger3 {
+        left: 232px;
     }
-    #sfh-nav-hanger4{
-        right: 148px
+    #sfh-nav-hanger4 {
+        right: 226px;
     }
 }
-@media screen and (max-width:1340px){
-    #sfh-nav-hanger{
-        left: 100px;
-
-
-    }
-    #sfh-nav-hanger2{
-        right: 100px
-
-    }
-    #sfh-nav-hanger3{
+@media screen and (max-width: 1720px) {
+    #sfh-nav-hanger {
         left: 110px;
-
     }
-    #sfh-nav-hanger4{
-        right: 108px
+    #sfh-nav-hanger2 {
+        right: 110px;
+    }
+    #sfh-nav-hanger3 {
+        left: 122px;
+    }
+    #sfh-nav-hanger4 {
+        right: 116px;
     }
 }
-@media screen and (max-width:1280px){
-    #sfh-nav-hanger{
+@media screen and (max-width: 1720px) {
+    #sfh-nav-hanger {
+        left: 110px;
+    }
+    #sfh-nav-hanger2 {
+        right: 110px;
+    }
+    #sfh-nav-hanger3 {
+        left: 122px;
+    }
+    #sfh-nav-hanger4 {
+        right: 116px;
+    }
+}
+@media screen and (max-width: 1340px) {
+    #sfh-nav-hanger {
+        left: 100px;
+    }
+    #sfh-nav-hanger2 {
+        right: 100px;
+    }
+    #sfh-nav-hanger3 {
+        left: 110px;
+    }
+    #sfh-nav-hanger4 {
+        right: 108px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    #sfh-nav-hanger {
         left: 80px;
-
-
     }
-    #sfh-nav-hanger2{
-        right: 80px
-
+    #sfh-nav-hanger2 {
+        right: 80px;
     }
-    #sfh-nav-hanger3{
+    #sfh-nav-hanger3 {
         left: 91px;
-
     }
-    #sfh-nav-hanger4{
-        right: 87px
+    #sfh-nav-hanger4 {
+        right: 87px;
     }
 }
-@media screen and (max-width:1199px){
-    #sfh-nav-hanger{
+@media screen and (max-width: 1199px) {
+    #sfh-nav-hanger {
         left: 120px;
-
-
     }
-    #sfh-nav-hanger2{
-        right: 120px
-
+    #sfh-nav-hanger2 {
+        right: 120px;
     }
-    #sfh-nav-hanger3{
+    #sfh-nav-hanger3 {
         left: 131px;
-
     }
-    #sfh-nav-hanger4{
-        right: 126px
+    #sfh-nav-hanger4 {
+        right: 126px;
     }
 }
-@media screen and (max-width:1100px){
-    #sfh-nav-hanger{
+@media screen and (max-width: 1100px) {
+    #sfh-nav-hanger {
         left: 80px;
-
-
     }
-    #sfh-nav-hanger2{
-        right: 75px
-
+    #sfh-nav-hanger2 {
+        right: 75px;
     }
-    #sfh-nav-hanger3{
+    #sfh-nav-hanger3 {
         left: 91px;
-
     }
-    #sfh-nav-hanger4{
-        right: 82px
+    #sfh-nav-hanger4 {
+        right: 82px;
     }
 }
-@media screen and (max-width:991px){
-    #sfh-nav-hanger{
-        left:140px;
-
-
+@media screen and (max-width: 991px) {
+    #sfh-nav-hanger {
+        left: 140px;
     }
-    #sfh-nav-hanger2{
-        right: 140px
-
+    #sfh-nav-hanger2 {
+        right: 140px;
     }
-    #sfh-nav-hanger3{
+    #sfh-nav-hanger3 {
         left: 151px;
-
     }
-    #sfh-nav-hanger4{
-        right: 146px
+    #sfh-nav-hanger4 {
+        right: 146px;
     }
 }
-@media screen and (max-width:957px){
-#sfh-nav-hanger-wrap{
+@media screen and (max-width: 957px) {
+    #sfh-nav-hanger-wrap {
+        display: none;
+    }
+}
+.drop-down-list{
 display: none;
 }
+.sfh-drop-down-content.active .drop-down-list{
+    display: table-caption;
+    z-index: 1;
+   
+    }
+.sfh-drop-down-button{
+    border: none;
+    border-right:1px solid;
+    font-family:  Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(106, 104, 104);
+    display: inline-flex;
+   
+}
+.sfh-drop-down-button:hover{
+    color: black;
+}
+.sfh-drop-down-content {
+    display: inline;
+}
+.sfh-drop-down-wrapper{
+    display: inline-flex;
+}
+.sfh-drop-down-content.active .sfh-drop-down-list{
+position: absolute;
+display: flex;
+box-shadow: 1px 1px 20px 10px #bebbbb;
+background: white;
+border-radius: 25px;
+transition: 2s eas;
+transform: translateX(-230px);
+width: 55%;
+
+margin-top: 10px;
 }

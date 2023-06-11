@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div class="container-fluid">
+ <div class="container-fluid">
         <div class="sfh-navbar-container">
             <div class="sfh-navbar-wrapper">
                         <div class="navbar-toggle-wrapper">
@@ -24,7 +24,7 @@
                             <ul class="text-center">
                                 <li><a>Become supplier</a></li>
                                 <li><a>Contact us</a></li>
-                                <li><a>Help &amp; support</a></li>
+                                <li><a> support</a></li>
                             </ul>
                             <div class="sfh-close-btn-wrapper" id="sfh-navbar-close"> 
                                 <i class="fa fa-close"></i>
@@ -51,29 +51,311 @@
                         </div>
                 </div> 
         </div>
-  </div>
+ </div>
                 <div id="sfh-nav-hanger-wrap">
                     <div id="sfh-nav-hanger" ></div>
                     <div id="sfh-nav-hanger3" ></div>
                     <div id="sfh-nav-hanger2" style="float:right"></div>
                     <div id="sfh-nav-hanger4" style="float:right"></div>
                 </div>
-        
             <div class="container">
-                <div class="sfh-Main-navbar text-center">    
-                    <div class="link-wrapper text-center" id="navbarCollapseChild">
-                        <ul class="text-center">
+            <div class="link-wrapper text-center second" id="navbarCollapseChild">
+                <div class="sfh-drop-down-wrapper">
+                <div class="sfh-drop-down-content">
+                    <button class="sfh-drop-down-button">Mens</button>
+                    <div class="sfh-drop-down-list">
+
+                    <div class="row">
+                        <div class="col-md-3 col-xs-12 col-lg-3 col-sm-12">
+                        <ul class="drop-down-list ">
                             <li><a>Men</a></li>
                             <li><a>Women</a></li>
                             <li><a>Kids</a></li>
                             <li><a>Beauty</a></li>
                             <li><a>Gifts Items</a></li>
+                            <li><a>Accessories</a></li>           
+                          </ul>
+                        </div>
+                        <div class="col-md-3 col-xs-12 col-lg-3 col-sm-12">
+                        <ul class="drop-down-list">
+                            <li><a>Men</a></li>
+                            <li><a>Women</a></li>
+                            <li><a>Kids</a></li>
+                            <li><a>Beauty</a></li>
+                            <li><a>Gifts Items</a></li>
+                            <li><a>Accessories</a></li>           
+                          </ul>
+                        </div>
+                        <div class="col-md-3 col-xs-12 col-lg-3 col-sm-12">
+                        <ul class="drop-down-list">
+                            <li><a>Men</a></li>
+                            <li><a>Women</a></li>
+                            <li><a>Kids</a></li>
+                            <li><a>Beauty</a></li>
+                            <li><a>Gifts Items</a></li>
+                            <li><a>Accessories</a></li>           
+                          </ul>
+                        </div>
+                        <div class="col-md-3 col-xs-12 col-lg-3 col-sm-12">
+                        <ul class="drop-down-list">
+                            <li><a>Men</a></li>
+                            <li><a>Women</a></li>
+                            <li><a>Kids</a></li>
+                            <li><a>Beauty</a></li>
+                            <li><a>Gifts Items</a></li>
+                            <li><a>Accessories</a></li>           
+                          </ul>
+                        </div>
+                    </div>        
+                    </div>            
+                </div> 
+                <div class="sfh-drop-down-content">
+                    <button class="sfh-drop-down-button">Womens</button>
+                    <div class="sfh-drop-down-list">
+
+                    <div class="row">
+                        <div class="col-md-3 col-xs-12 col-lg-3 col-sm-12">
+                        <ul class="drop-down-list ">
+                            <li><a>women</a></li>
+                            <li><a>Women</a></li>
+                            <li><a>Kids</a></li>
+                            <li><a>Beauty</a></li>
+                            <li><a>Gifts Items</a></li>
+                            <li><a>Accessories</a></li>           
+                          </ul>
+                        </div>
+                        <div class="col-md-3 col-xs-12 col-lg-3 col-sm-12">
+                        <ul class="drop-down-list">
+                            <li><a>Men</a></li>
+                            <li><a>Women</a></li>
+                            <li><a>Kids</a></li>
+                            <li><a>Beauty</a></li>
+                            <li><a>Gifts Items</a></li>
+                            <li><a>Accessories</a></li>           
+                          </ul>
+                        </div>
+                        <div class="col-md-3 col-xs-12 col-lg-3 col-sm-12">
+                        <ul class="drop-down-list">
+                            <li><a>Men</a></li>
+                            <li><a>Women</a></li>
+                            <li><a>Kids</a></li>
+                            <li><a>Beauty</a></li>
+                            <li><a>Gifts Items</a></li>
+                            <li><a>Accessories</a></li>           
+                          </ul>
+                        </div>
+                        <div class="col-md-3 col-xs-12 col-lg-3 col-sm-12">
+                        <ul class="drop-down-list">
+                            <li><a>Men</a></li>
+                            <li><a>Women</a></li>
+                            <li><a>Kids</a></li>
+                            <li><a>Beauty</a></li>
+                            <li><a>Gifts Items</a></li>
+                            <li><a>Accessories</a></li>           
+                          </ul>
+                        </div>
+                    </div>        
+                    </div>            
+                </div> 
+
+                <div class="sfh-drop-down-content">
+                    <button class="sfh-drop-down-button">Kids</button>
+                    <div class="sfh-drop-down-list">
+
+                    <div class="row">
+                        <div class="col-md-3 col-xs-12 col-lg-3 col-sm-12">
+                        <ul class="drop-down-list ">
+                            <li><a>KIDS</a></li>
+                            <li><a>Women</a></li>
+                            <li><a>Kids</a></li>
+                            <li><a>Beauty</a></li>
+                            <li><a>Gifts Items</a></li>
+                            <li><a>Accessories</a></li>           
+                          </ul>
+                        </div>
+                        <div class="col-md-3 col-xs-12 col-lg-3 col-sm-12">
+                        <ul class="drop-down-list">
+                            <li><a>Men</a></li>
+                            <li><a>Women</a></li>
+                            <li><a>Kids</a></li>
+                            <li><a>Beauty</a></li>
+                            <li><a>Gifts Items</a></li>
+                            <li><a>Accessories</a></li>           
+                          </ul>
+                        </div>
+                        <div class="col-md-3 col-xs-12 col-lg-3 col-sm-12">
+                        <ul class="drop-down-list">
+                            <li><a>Men</a></li>
+                            <li><a>Women</a></li>
+                            <li><a>Kids</a></li>
+                            <li><a>Beauty</a></li>
+                            <li><a>Gifts Items</a></li>
+                            <li><a>Accessories</a></li>           
+                          </ul>
+                        </div>
+                        <div class="col-md-3 col-xs-12 col-lg-3 col-sm-12">
+                        <ul class="drop-down-list">
+                            <li><a>Men</a></li>
+                            <li><a>Women</a></li>
+                            <li><a>Kids</a></li>
+                            <li><a>Beauty</a></li>
+                            <li><a>Gifts Items</a></li>
+                            <li><a>Accessories</a></li>           
+                          </ul>
+                        </div>
+                    </div>        
+                    </div>            
+                </div> 
+
+                <div class="sfh-drop-down-content">
+                    <button class="sfh-drop-down-button">Beauty</button>
+                    <div class="sfh-drop-down-list">
+
+                    <div class="row">
+                        <div class="col-md-3 col-xs-12 col-lg-3 col-sm-12">
+                        <ul class="drop-down-list ">
+                            <li><a>beauty</a></li>
+                            <li><a>Women</a></li>
+                            <li><a>Kids</a></li>
+                            <li><a>Beauty</a></li>
+                            <li><a>Gifts Items</a></li>
+                            <li><a>Accessories</a></li>           
+                          </ul>
+                        </div>
+                        <div class="col-md-3 col-xs-12 col-lg-3 col-sm-12">
+                        <ul class="drop-down-list">
+                            <li><a>Men</a></li>
+                            <li><a>Women</a></li>
+                            <li><a>Kids</a></li>
+                            <li><a>Beauty</a></li>
+                            <li><a>Gifts Items</a></li>
+                            <li><a>Accessories</a></li>           
+                          </ul>
+                        </div>
+                        <div class="col-md-3 col-xs-12 col-lg-3 col-sm-12">
+                        <ul class="drop-down-list">
+                            <li><a>Men</a></li>
+                            <li><a>Women</a></li>
+                            <li><a>Kids</a></li>
+                            <li><a>Beauty</a></li>
+                            <li><a>Gifts Items</a></li>
+                            <li><a>Accessories</a></li>           
+                          </ul>
+                        </div>
+                        <div class="col-md-3 col-xs-12 col-lg-3 col-sm-12">
+                        <ul class="drop-down-list">
+                            <li><a>Men</a></li>
+                            <li><a>Women</a></li>
+                            <li><a>Kids</a></li>
+                            <li><a>Beauty</a></li>
+                            <li><a>Gifts Items</a></li>
+                            <li><a>Accessories</a></li>           
+                          </ul>
+                        </div>
+                    </div>        
+                    </div>            
+                </div> 
+
+                <div class="sfh-drop-down-content">
+                    <button class="sfh-drop-down-button">Gifts</button>
+                    <div class="sfh-drop-down-list">
+
+                    <div class="row">
+                        <div class="col-md-3 col-xs-12 col-lg-3 col-sm-12">
+                        <ul class="drop-down-list ">
+                            <li><a>Gifts</a></li>
+                            <li><a>Women</a></li>
+                            <li><a>Kids</a></li>
+                            <li><a>Beauty</a></li>
+                            <li><a>Gifts Items</a></li>
+                            <li><a>Accessories</a></li>           
+                          </ul>
+                        </div>
+                        <div class="col-md-3 col-xs-12 col-lg-3 col-sm-12">
+                        <ul class="drop-down-list">
+                            <li><a>Men</a></li>
+                            <li><a>Women</a></li>
+                            <li><a>Kids</a></li>
+                            <li><a>Beauty</a></li>
+                            <li><a>Gifts Items</a></li>
+                            <li><a>Accessories</a></li>           
+                          </ul>
+                        </div>
+                        <div class="col-md-3 col-xs-12 col-lg-3 col-sm-12">
+                        <ul class="drop-down-list">
+                            <li><a>Men</a></li>
+                            <li><a>Women</a></li>
+                            <li><a>Kids</a></li>
+                            <li><a>Beauty</a></li>
+                            <li><a>Gifts Items</a></li>
+                            <li><a>Accessories</a></li>           
+                          </ul>
+                        </div>
+                        <div class="col-md-3 col-xs-12 col-lg-3 col-sm-12">
+                        <ul class="drop-down-list">
+                            <li><a>Men</a></li>
+                            <li><a>Women</a></li>
+                            <li><a>Kids</a></li>
+                            <li><a>Beauty</a></li>
+                            <li><a>Gifts Items</a></li>
+                            <li><a>Accessories</a></li>           
+                          </ul>
+                        </div>
+                    </div>        
+                    </div>            
+                </div> 
+
+                <div class="sfh-drop-down-content">
+                    <button class="sfh-drop-down-button">Accessories</button>
+                    <div class="sfh-drop-down-list">
+
+                    <div class="row">
+                        <div class="col-md-3 col-xs-12 col-lg-3 col-sm-12">
+                        <ul class="drop-down-list ">
                             <li><a>Accessories</a></li>
-                        </ul>
+                            <li><a>Women</a></li>
+                            <li><a>Kids</a></li>
+                            <li><a>Beauty</a></li>
+                            <li><a>Gifts Items</a></li>
+                            <li><a>Accessories</a></li>           
+                          </ul>
+                        </div>
+                        <div class="col-md-3 col-xs-12 col-lg-3 col-sm-12">
+                        <ul class="drop-down-list">
+                            <li><a>Men</a></li>
+                            <li><a>Women</a></li>
+                            <li><a>Kids</a></li>
+                            <li><a>Beauty</a></li>
+                            <li><a>Gifts Items</a></li>
+                            <li><a>Accessories</a></li>           
+                          </ul>
+                        </div>
+                        <div class="col-md-3 col-xs-12 col-lg-3 col-sm-12">
+                        <ul class="drop-down-list">
+                            <li><a>Men</a></li>
+                            <li><a>Women</a></li>
+                            <li><a>Kids</a></li>
+                            <li><a>Beauty</a></li>
+                            <li><a>Gifts Items</a></li>
+                            <li><a>Accessories</a></li>           
+                          </ul>
+                        </div>
+                        <div class="col-md-3 col-xs-12 col-lg-3 col-sm-12">
+                        <ul class="drop-down-list">
+                            <li><a>Men</a></li>
+                            <li><a>Women</a></li>
+                            <li><a>Kids</a></li>
+                            <li><a>Beauty</a></li>
+                            <li><a>Gifts Items</a></li>
+                            <li><a>Accessories</a></li>           
+                          </ul>
+                        </div>
+                    </div>        
+                    </div>            
+                </div> 
                     </div>
-                 </div>
+                </div>
             </div>
- 
 
     <script src="{{URL::asset('js/navbar.js')}}"></script>
 </body>
